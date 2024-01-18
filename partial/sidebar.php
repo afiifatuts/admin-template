@@ -48,17 +48,17 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.php?page=biodata-activation" class="nav-link">
                                 <p> Biodata Activation</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.php?page=requition_to_employee" class="nav-link">
                                 <p> Requisition To Employee (RTE)</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.php?page=salary-master" class="nav-link">
                                 <p> Salary Master</p>
                             </a>
                         </li>
