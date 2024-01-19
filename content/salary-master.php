@@ -143,6 +143,14 @@
                                 </select>
                             </div>
                             <div class="form-group">
+                                <label>Is Travel<sup class="text-danger">*</sup></label>
+                                <select class="errMsg form-control" id="isTravelBonus" name="isTravelBonus" required="">
+                                    <option value="" disabled="" selected="">Pilih</option>
+                                    <option value="1">Ya</option>
+                                    <option value="0">Tidak</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
                                 <label>Bank Name<sup class="text-danger">*</sup></label>
                                 <select class="errMsg form-control" id="bankName" name="bankName" required="">
                                     <option value="" disabled="" selected="">Pilih</option>
@@ -230,7 +238,7 @@
                                 <input type="text" class="errMsg form-control currencyField" id="housingAllowance" name="housingAllowance" value="0" placeholder="Tunjangan Transport & Tinggal" required="">
                             </div>
                             <div class="form-group">
-                                <label>Is Shift Bonus</label>
+                                <label>Is Shift Bonus<sup class="text-danger">*</sup></label>
                                 <select class="errMsg form-control" id="isShiftBonus" name="isShiftBonus" required="">
                                     <option value="" disabled="" selected="">Pilih</option>
                                     <option value="1">Ya</option>
@@ -238,7 +246,7 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label>Is Overtime Bonus</label>
+                                <label>Is Overtime Bonus<sup class="text-danger">*</sup></label>
                                 <select class="errMsg form-control" id="isOTBonus" name="isOTBonus" required="">
                                     <option value="" disabled="" selected="">Pilih</option>
                                     <option value="1">Ya</option>
@@ -246,7 +254,7 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label>Is Dev Incentive</label>
+                                <label>Is Dev Incentive<sup class="text-danger">*</sup></label>
                                 <select class="errMsg form-control" id="isIncentiveDevBonus" name="isIncentiveDevBonus" required="">
                                     <option value="" disabled="" selected="">Pilih</option>
                                     <option value="1">Ya</option>
@@ -254,7 +262,7 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label>Is CC Payment</label>
+                                <label>Is CC Payment<sup class="text-danger">*</sup></label>
                                 <select class="errMsg form-control" id="isIncentiveDevBonus" name="isIncentiveDevBonus" required="">
                                     <option value="" disabled="" selected="">Pilih</option>
                                     <option value="1">Ya</option>
@@ -262,43 +270,21 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label>Weight<sup class="text-danger">*</sup></label>
-                                <input type="number" class="form-control" placeholder="Tinggi Badan" />
-                            </div>
-                            <div class="form-group">
-                                <label>Blood Type<sup class="text-danger">*</sup></label>
-                                <select class="form-control" style="width: 100%;">
-                                    <option selected="selected" disabled>Pilih</option>
-                                    <option value="A">A</option>
-                                    <option value="B">B</option>
-                                    <option value="AB">AB</option>
-                                    <option value="O">O</option>
-                                    <option value="None">None</option>
+                                <label>Is Overtime<sup class="text-danger">*</sup></label>
+                                <select class="errMsg form-control" id="isOTBonus" name="isOTBonus" required="">
+                                    <option value="" disabled="" selected="">Pilih</option>
+                                    <option value="1">Ya</option>
+                                    <option value="0">Tidak</option>
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label>Telephone Number<sup class="text-danger">*</sup></label>
-                                <input type="text" class="form-control" placeholder="Nomor Telephone" />
+                                <label>Account Name<sup class="text-danger">*</sup></label>
+                                <input type="text" class="errMsg form-control" id="accountName" name="accountName" placeholder="Nama Pemilik Rekening" required="">
                             </div>
                             <div class="form-group">
-                                <label>Point Of Hire<sup class="text-danger">*</sup></label>
-                                <select class="form-control" style="width: 100%;">
-                                    <option selected="selected" disabled>Pilih</option>
-                                    <option value="L">Local</option>
-                                    <option value="NL">Non Local</option>
-                                    <option value="NP">Non Papua</option>
-                                    <option value="PO">Papua Others</option>
-                                    <option value="PO">Papua 7 Ethnic</option>
-                                </select>
+                                <button class="btn btn-primary">Save</button>
                             </div>
-                            <div class="form-group">
-                                <label>Staff / Non Staff<sup class="text-danger">*</sup></label>
-                                <select class="form-control" style="width: 100%;">
-                                    <option selected="selected" disabled>Pilih</option>
-                                    <option value="0">Non Staff</option>
-                                    <option value="1">Staff</option>
-                                </select>
-                            </div>
+
                         </div>
                         <!-- /.col -->
                     </div>
@@ -341,26 +327,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>Ua</td>
-                                        <td>Internet
-                                            Explorer 4.0
-                                        </td>
-                                        <td>Win 95+</td>
-                                        <td> 4</td>
-                                        <td>X</td>
-                                        <td>X</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Trident</td>
-                                        <td>Internet
-                                            Explorer 5.0
-                                        </td>
-                                        <td>Win 95+</td>
-                                        <td>5</td>
-                                        <td>C</td>
-                                        <td>C</td>
-                                    </tr>
+
                             </table>
                         </div>
 

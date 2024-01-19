@@ -286,24 +286,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>Trident</td>
-                                            <td>Internet
-                                                Explorer 4.0
-                                            </td>
-                                            <td>Win 95+</td>
-                                            <td> 4</td>
-                                            <td>X</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Trident</td>
-                                            <td>Internet
-                                                Explorer 5.0
-                                            </td>
-                                            <td>Win 95+</td>
-                                            <td>5</td>
-                                            <td>C</td>
-                                        </tr>
+
                                 </table>
                             </div>
                             <div class="tab-pane fade" id="tr" role="tabpanel" aria-labelledby="training">
@@ -320,24 +303,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>Trident</td>
-                                            <td>Internet
-                                                Explorer 4.0
-                                            </td>
-                                            <td>Win 95+</td>
-                                            <td> 4</td>
-                                            <td>X</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Trident</td>
-                                            <td>Internet
-                                                Explorer 5.0
-                                            </td>
-                                            <td>Win 95+</td>
-                                            <td>5</td>
-                                            <td>C</td>
-                                        </tr>
+                                    </tbody>
                                 </table>
                             </div>
                             <div class="tab-pane fade" id="ex" role="tabpanel" aria-labelledby="experience">
@@ -359,18 +325,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>Trident</td>
-                                            <td>Internet</td>
-                                            <td>Win 95+</td>
-                                            <td> 4</td>
-                                            <td>X</td>
-                                            <td>X</td>
-                                            <td>X</td>
-                                            <td>X</td>
-                                            <td>X</td>
-                                            <td>X</td>
-                                        </tr>
+                                    </tbody>
                                 </table>
                             </div>
                             <div class="tab-pane fade" id="fa" role="tabpanel" aria-labelledby="family">
@@ -387,14 +342,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>Trident</td>
-                                            <td>Internet</td>
-                                            <td>Win 95+</td>
-                                            <td> 4</td>
-                                            <td>X</td>
-                                            <td>X</td>
-                                        </tr>
+                                    </tbody>
                                 </table>
                             </div>
                             <div class="tab-pane fade" id="la" role="tabpanel" aria-labelledby="language">
@@ -410,13 +358,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>Trident</td>
-                                            <td>Internet</td>
-                                            <td>Win 95+</td>
-                                            <td> 4</td>
-                                            <td>X</td>
-                                        </tr>
+                                    </tbody>
                                 </table>
                             </div>
                             <div class="tab-pane fade" id="or" role="tabpanel" aria-labelledby="organization">
@@ -431,12 +373,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>Trident</td>
-                                            <td>Internet</td>
-                                            <td>Win 95+</td>
-                                            <td> 4</td>
-                                        </tr>
+                                    <tbody>
                                 </table>
                             </div>
                             <div class="tab-pane fade" id="re" role="tabpanel" aria-labelledby="reference">
@@ -452,13 +389,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>Trident</td>
-                                            <td>Internet</td>
-                                            <td>Win 95+</td>
-                                            <td> 4</td>
-                                            <td>X</td>
-                                        </tr>
+                                    </tbody>
                                 </table>
                             </div>
                             <div class="tab-pane fade" id="qa" role="tabpanel" aria-labelledby="qualification">
@@ -476,12 +407,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>Trident</td>
-                                            <td>Internet</td>
-                                            <td>Win 95+</td>
-                                            <td> 4</td>
-                                        </tr>
+                                    </tbody>
                                 </table>
                             </div>
                         </div>

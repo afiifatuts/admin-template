@@ -63,32 +63,32 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.php?page=bank_account" class="nav-link">
                                 <p> Bank Account</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.php?page=salary_level_master" class="nav-link">
                                 <p> Salary Level Master</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.php?page=loan" class="nav-link">
                                 <p> Loan</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.php?page=contract_master" class="nav-link">
                                 <p> Contract Master</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.php?page=daily-worker" class="nav-link">
                                 <p> Daily Worker</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.php?page=clossing_payroll" class="nav-link">
                                 <p> Closing Payroll</p>
                             </a>
                         </li>
