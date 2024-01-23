@@ -1,15 +1,3 @@
-<?php
-// index.php
-
-// Mendapatkan parameter 'page'
-$page = isset($_GET['page']) ? $_GET['page'] : 'home';
-
-// Mengatur judul halaman berdasarkan parameter 'page'
-$pageTitle = ucfirst($page);
-
-// Mengatur file konten berdasarkan parameter 'page'
-$content = "content/{$page}.php";
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,13 +18,19 @@ $content = "content/{$page}.php";
   <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
   <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
   <link rel="stylesheet" href="plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+
 </head>
+
 
 <body class="hold-transition sidebar-mini layout-navbar-fixed layout-fixed ">
   <div class="wrapper">
     <?php include 'partial/topbar.php'; ?>
     <?php include 'partial/sidebar.php'; ?>
-
+    <?php
+    $page = isset($_GET['page']) ? $_GET['page'] : 'home';
+    $pageTitle = ucfirst($page);
+    $content = "content/{$page}.php";
+    ?>
     <?php include($content); ?>
 
     <?php include 'partial/footer.php'; ?>

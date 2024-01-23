@@ -1,9 +1,9 @@
 <!-- Main Sidebar Container -->
-<aside class="main-sidebar sidebar-dark-primary elevation-4">
+<aside class="main-sidebar sidebar-light-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-        <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">AdminLTE 3</span>
+
+        <span class="brand-text font-weight-light"> HRIS</span>
     </a>
 
     <!-- Sidebar -->
@@ -43,57 +43,57 @@
                     </a>
                     <ul class="nav nav-treeview ml-3">
                         <li class="nav-item">
-                            <a href="index.php?page=biodata-master" class="nav-link">
+                            <a href="index.php?page=masters/biodata-master" class="nav-link">
                                 <p>Biodata Master</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="index.php?page=biodata-activation" class="nav-link">
+                            <a href="index.php?page=masters/biodata-activation" class="nav-link">
                                 <p> Biodata Activation</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="index.php?page=requition_to_employee" class="nav-link">
+                            <a href="index.php?page=masters/requition_to_employee" class="nav-link">
                                 <p> Requisition To Employee (RTE)</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="index.php?page=salary-master" class="nav-link">
+                            <a href="index.php?page=masters/salary-master" class="nav-link">
                                 <p> Salary Master</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="index.php?page=bank_account" class="nav-link">
+                            <a href="index.php?page=masters/bank_account" class="nav-link">
                                 <p> Bank Account</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="index.php?page=salary_level_master" class="nav-link">
+                            <a href="index.php?page=masters/salary_level_master" class="nav-link">
                                 <p> Salary Level Master</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="index.php?page=loan" class="nav-link">
+                            <a href="index.php?page=masters/loan" class="nav-link">
                                 <p> Loan</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="index.php?page=contract_master" class="nav-link">
+                            <a href="index.php?page=masters/contract_master" class="nav-link">
                                 <p> Contract Master</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="index.php?page=daily-worker" class="nav-link">
+                            <a href="index.php?page=masters/daily-worker" class="nav-link">
                                 <p> Daily Worker</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="index.php?page=clossing_payroll" class="nav-link">
+                            <a href="index.php?page=masters/clossing_payroll" class="nav-link">
                                 <p> Closing Payroll</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.php?page=masters/roster_check_id" class="nav-link">
                                 <p> Roster Check Id</p>
                             </a>
                         </li>
@@ -103,7 +103,7 @@
                 <li class="nav-header">Transactions</li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-copy"></i>
+                        <i class="fas fa-chart-line"></i>
                         <p>
                             Transactions
                             <i class="fas fa-angle-left right"></i>
@@ -111,22 +111,27 @@
                     </a>
                     <ul class="nav nav-treeview ml-3">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.php?page=transactions/timesheet-import" class="nav-link">
                                 <p>Timesheet Import</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.php?page=transactions/timesheet-process" class="nav-link">
                                 <p>Timesheet Process</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.php?page=transactions/demobilization" class="nav-link">
                                 <p>Demobilization</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.php?page=transactions/rte_demob" class="nav-link">
+                                <p>RTE Demob</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php?page=transactions/roster-ts-import" class="nav-link">
                                 <p>Roster TS Import</p>
                             </a>
                         </li>
@@ -135,7 +140,7 @@
                 <li class="nav-header">Reports</li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-copy"></i>
+                        <i class="fas fa-chart-bar"></i>
                         <p>
                             Reports
                             <i class="fas fa-angle-left right"></i>

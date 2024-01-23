@@ -7,10 +7,10 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Bank Account</h1>
+                    <h1 class="m-0">Salary Level Master </h1>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item">Dashboard</li>
-                        <li class="breadcrumb-item active">Bank Account</li>
+                        <li class="breadcrumb-item active">Salary Level Master</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
@@ -208,15 +208,3 @@
         });
     });
 </script>
-
-
-
-<!--START FORM DATA -->
-<div class="col-md-12" id="is_transaction">
-    <div class="tile bg-info">
-        <h2>Input Closing</h2>
-        <br />
-        
-    </div>
-</div>
-<!-- END FORM DATA -->
