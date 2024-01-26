@@ -1,5 +1,5 @@
 <!-- Main Sidebar Container -->
-<aside class="main-sidebar sidebar-light-primary elevation-4">
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
 
@@ -148,47 +148,123 @@
                     </a>
                     <ul class="nav nav-treeview ml-3">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.php?page=reports/invoice" class="nav-link">
                                 <p>Invoice</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.php?page=reports/invoice-client" class="nav-link">
                                 <p>Invoice Client</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.php?page=reports/pajak-pph-lcp" class="nav-link">
                                 <p>Pajak PPh 21 LCP</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.php?page=reports/data-crews-lcp" class="nav-link">
                                 <p>Data Crews LCP</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.php?page=reports/list-active-report" class="nav-link">
                                 <p>List Active Report</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <p>Employee Income Tac Calculation</p>
+                            <a href="index.php?page=reports/employee-income-tax-calc" class="nav-link">
+                                <p>Employee Income Tax Calculation</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.php?page=reports/export-csv" class="nav-link">
                                 <p>Export To CSV</p>
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a href="index.php?page=reports/contract-bonus" class="nav-link">
+                                <p>Contarct Bonus</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php?page=reports/employee-active-list" class="nav-link">
+                                <p>Employee Active List</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php?page=reports/summary-payroll" class="nav-link">
+                                <p>Summary Payroll</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php?page=reports/candidate-data" class="nav-link">
+                                <p>Candidate Data</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php?page=reports/employee-data" class="nav-link">
+                                <p>Employee Data</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php?page=reports/daily-worker" class="nav-link">
+                                <p>Daily Worker</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php?page=reports/biodata-evaluation" class="nav-link">
+                                <p>Biodata Evaluation</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php?page=reports/biodata-export-list" class="nav-link">
+                                <p>Biodata Export List</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php?page=reports/data-contract-list" class="nav-link">
+                                <p>Data Contract List</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php?page=reports/export-bpjs-list" class="nav-link">
+                                <p>Export BPJS List</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php?page=reports/rte-report" class="nav-link">
+                                <p>RTE Report</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php?page=reports/man-power-data" class="nav-link">
+                                <p>Man Power Data</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php?page=reports/report-salary-master" class="nav-link">
+                                <p>Report Salary Master</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php?page=reports/history-of-contract" class="nav-link">
+                                <p>History Of Contract</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.php?page=reports/history-update-biodata" class="nav-link">
+                                <p>History Update Biodata</p>
+                            </a>
+                        </li>
+
                     </ul>
                 </li>
 
                 <li class="nav-header">Settings</li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-copy"></i>
+                        <i class="nav-icon far fa-user"></i>
                         <p>
                             Admin
                             <i class="fas fa-angle-left right"></i>
@@ -209,7 +285,7 @@
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-copy"></i>
+                        <i class="nav-icon fas fa-wrench"></i>
                         <p>
                             Utilities
                             <i class="fas fa-angle-left right"></i>
@@ -225,7 +301,7 @@
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-copy"></i>
+                        <i class="nav-icon far fa-question-circle"></i>
                         <p>
                             Helper
                             <i class="fas fa-angle-left right"></i>

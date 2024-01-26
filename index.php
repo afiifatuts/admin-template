@@ -19,6 +19,38 @@
   <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
   <link rel="stylesheet" href="plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
 
+  <style>
+    .bg-b {
+      background-color: #0093E9;
+      background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+      /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% ); */
+    }
+
+    .bg-y {
+      /* background-image: linear-gradient(89.9deg, rgba(255, 190, 32, 1) 0.6%, rgba(251, 112, 71, 1) 124.3%); */
+      background-color: #FDE767;
+      color: white;
+    }
+
+    .bg-b2 {
+      background-color: #3652AD;
+      /* background-image: linear-gradient(1deg, #97ABFF 10%, #123597 100%); */
+      color: white !important;
+    }
+
+    .text-b2 {
+      /* background-image: linear-gradient(1deg, #97ABFF 10%, #123597 100%); */
+      color: #3652AD;
+      font-weight: bold;
+    }
+
+    .text-b2l {
+      /* background-image: linear-gradient(1deg, #97ABFF 10%, #123597 100%); */
+      color: #3652AD;
+      font-weight: normal;
+    }
+  </style>
+
 </head>
 
 
